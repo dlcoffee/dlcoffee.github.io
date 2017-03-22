@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li class="post">
+        <header class="post-header">
+          <h2 class="post-title">
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h2>
+
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </header>
+
+        <p class="excerpt"> {{ post.excerpt }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
