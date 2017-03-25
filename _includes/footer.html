@@ -1,17 +1,30 @@
 <footer class="site-footer">
   <nav>
     <ul class="social-media-list">
-      {% if site.github_username %}
-      <li>
-        {% include icon-github.html username=site.github_username %}
-      </li>
-      {% endif %}
+      <li class="social-media-item">
+        <a href="https://github.com/{{ site.github_username }}">
+          <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+        </a>
 
-      {% if site.twitter_username %}
-      <li>
-        {% include icon-twitter.html username=site.twitter_username %}
       </li>
-      {% endif %}
+
+      <li class="social-media-item">
+        <a href="https://twitter.com/{{ site.twitter_username }}">
+          <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+        </a>
+      </li>
+
+      <li class="social-media-item">
+        <a href="https://codepen.io/{{ site.codepen_username }}">
+          <i class="fa fa-codepen fa-3x" aria-hidden="true"></i>
+        </a>
+      </li>
+
+      <li class="social-media-item">
+        <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+          <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+        </a>
+      </li>
     </ul>
   </nav>
 </footer>

@@ -3,10 +3,9 @@ layout: default
 ---
 
 <div class="home">
-
   <ul class="post-list">
     {% for post in site.posts %}
-      <li class="post">
+      <li class="short-post">
         <header class="post-header">
           <h2 class="post-title">
             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
@@ -15,9 +14,12 @@ layout: default
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         </header>
 
-        <p class="excerpt"> {{ post.excerpt }}</p>
+        <p class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>'}}</p>
+
+        <p class="read-more">
+          Read more...
+        </p>
       </li>
     {% endfor %}
   </ul>
-
 </div>
