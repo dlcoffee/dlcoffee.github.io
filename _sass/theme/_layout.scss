@@ -2,19 +2,22 @@
 .site-footer,
 .page-content {
   margin: 0 auto;
+  padding: 0 1rem;
   max-width: $site-width;
 }
 
 .site-header {
-  padding: 25px 0 0 0;
+  padding: 1rem 1rem 0 1rem;
 }
 
 .site-footer {
-  background-color: #102542;
-
   a {
     color: #ffffff;
   }
+}
+
+.site-footer-nav {
+  background-color: #102542;
 }
 
 .post {
