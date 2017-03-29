@@ -30,7 +30,7 @@
 }
 
 .site-header {
-   margin: $spacing-unit-wide 0 0 0;
+   margin-top: $spacing-unit-wide;
 }
 
 .excerpt {
@@ -61,6 +61,14 @@
 
   p:last-of-type {
     margin: 0;
+  }
+}
+
+.post-link {
+  border: none;
+
+  &:hover {
+    border: none;
   }
 }
 
