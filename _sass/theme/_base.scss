@@ -25,20 +25,27 @@ a {
   transition: color .1s linear;
   transition: border .1s linear;
 
-  color: #102542;
+  color: $blue-color;
 
   &:hover {
-    color: #F87060;
-    border-bottom: 1px solid #F87060;
+    color: $orange-color;
+    border-bottom: 1px solid $grey-color;
   }
 }
 
-i.fa {
-  transition: color .1s linear;
-
-  &:hover {
-    color: #F87060;
+p {
+  a {
+    font-size: .8rem;
   }
+}
+
+i
+  &.fa {
+    transition: color .1s linear;
+
+    &:hover {
+      color: $orange-color;
+    }
 }
 
 ul {

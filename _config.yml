@@ -25,6 +25,7 @@ twitter_username: _dlcoffee
 github_username:  dlcoffee
 codepen_username: dlcoffee
 linkedin_username: daniel-tea-1ab14697
+permalink: /:year/:month/:day/:title/
 
 # Build settings
 markdown: kramdown

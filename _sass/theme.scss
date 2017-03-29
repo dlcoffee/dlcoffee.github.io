@@ -1,4 +1,16 @@
+$spacing-unit: 15px;
+$spacing-unit-narrow: $spacing-unit / 2;
+$spacing-unit-wide: $spacing-unit * 2;
+$spacing-unit-wider: $spacing-unit * 3;
+$spacing-unit-widest: $spacing-unit * 4;
+
+$blue-color: #102542;
+$orange-color: #F87060;
+$grey-color: #F87060;
+$white-color: #FFFFFF;
+
 @import
   "theme/base",
-  "theme/layout"
+  "theme/layout",
+  "theme/syntax"
 ;
