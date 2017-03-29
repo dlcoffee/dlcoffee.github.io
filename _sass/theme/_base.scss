@@ -39,13 +39,14 @@ p {
   }
 }
 
-i
+i {
   &.fa {
     transition: color .1s linear;
 
     &:hover {
       color: $orange-color;
     }
+  }
 }
 
 ul {
