@@ -19,6 +19,21 @@ h6 {
 
 figure {
   overflow: scroll;
+  margin: 0 0 $spacing-unit 0;
+}
+
+blockquote {
+  background: $grey-color;
+  border-left: solid 2px $dark-grey-color;
+  font-family: 'Oxygen', sans-serif;
+  font-size: .8rem;
+  margin: 0 0 $spacing-unit 0;
+  padding: 5px;
+
+  ul {
+    list-style: disc inside;
+    margin: 0;
+  }
 }
 
 a {
@@ -53,6 +68,12 @@ i {
 
 ul {
   list-style: none;
+  margin-bottom: $spacing-unit;
+}
+
+ol {
+  list-style-position: inside;
+  margin-bottom: $spacing-unit;
 }
 
 .clearfix:before,

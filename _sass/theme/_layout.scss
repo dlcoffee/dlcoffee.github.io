@@ -60,12 +60,11 @@
     margin: $spacing-unit-wide 0 $spacing-unit 0;
   }
 
-  figure,
   p {
     margin: 0 0 $spacing-unit 0;
   }
 
-  p:last-of-type {
+  p:last-child {
     margin: 0;
   }
 }
