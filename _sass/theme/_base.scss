@@ -67,13 +67,21 @@ i {
 }
 
 ul {
-  list-style: none;
   margin-bottom: $spacing-unit;
 }
 
 ol {
   list-style-position: inside;
   margin-bottom: $spacing-unit;
+}
+
+#references {
+  margin-top: $spacing-unit-wide;
+
+  & + ul {
+    font-size: .8rem;
+    margin: 0;
+  }
 }
 
 .clearfix:before,

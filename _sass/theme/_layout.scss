@@ -67,6 +67,10 @@
   p:last-child {
     margin: 0;
   }
+
+  ul {
+    list-style-position: inside;
+  }
 }
 
 .post-link {
@@ -75,6 +79,10 @@
   &:hover {
     border: none;
   }
+}
+
+.post-list {
+  list-style: none;
 }
 
 .site-footer {
