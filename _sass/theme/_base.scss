@@ -81,6 +81,10 @@ ol {
   & + ul {
     font-size: .8rem;
     margin: 0;
+
+    li {
+      word-wrap: break-word;
+    }
   }
 }
 
