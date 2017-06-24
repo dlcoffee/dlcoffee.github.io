@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'EB Garamond', sans-serif;
+  font-family: 'Spectral', sans-serif;
 }
 
 h1,
@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 figure {
@@ -25,7 +25,7 @@ figure {
 blockquote {
   background: $grey-color;
   border-left: solid 2px $dark-grey-color;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: .8rem;
   margin: 0 0 $spacing-unit 0;
   padding: 5px;
@@ -37,7 +37,7 @@ blockquote {
 }
 
 a {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   border-bottom: 1px solid rgba(0,0,0,0);
   text-decoration: none;
   transition: color .1s linear, border .1s linear;
